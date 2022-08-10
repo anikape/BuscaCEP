@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(71, 67, 67, 0.863);
+    font-family: Arial;
+    font-size: 14px;
+}
+
+button {
+    color: rgba(51, 35, 35, 0.822);
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 8%;
+}
+
+button:hover {
+    box-shadow: 118px 50px 0px -14px rgba(97, 86, 97, 0.8);
+    color: rgba(15, 15, 155, 0.658);
+}
+
+#resultado {
+    display: inline;
+    border: 1px solid;
+    padding: 5px;
+    margin: 15px;
+}
+
+.container {
+    background-color: #fff;
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: rgba(51, 44, 44, 0.863);
+    text-shadow: 2px 2px rgba(97, 86, 97, 0.8);
+}
+
+label {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    text-align: center;
+    font-size: 1.3rem;
+}
